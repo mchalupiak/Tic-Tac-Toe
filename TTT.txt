@@ -1,0 +1,20 @@
+Tic Tac Toe plan
+
+on while loop
+	print gameboard loop with g1-g9 pieces
+        |      |
+     g1 |  g2  |  g3
+   -----|------|-----
+     g4 |  g5  |  g6
+   -----|------|-----
+     g7 |  g8  |  g9
+        |      |
+	
+	use g1-g9 as input variables with a choice between each one
+	have a random number generated for the "ai" player to pick a space (1-9)
+	assign each piece a number for the player to choose
+	have the player pick X or 0
+	set the ai to the other one
+	have a checking system for potenial wins on each space
+	check if its a tie when all spaces are filled
+	removed spaces already picked from changing
