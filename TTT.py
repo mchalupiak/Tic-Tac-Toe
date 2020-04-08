@@ -7,18 +7,9 @@ from time import sleep
 incorrectPiece = 0
 on = True
 startboard() ; sleep(.5)
-g1 = " "
-g2 = " "
-g3 = " "
-g4 = " "
-g5 = " "
-g6 = " "
-g7 = " "
-g8 = " "
-g9 = " "
-gameSpaces = [g1, g2, g3, g4, g5, g6, g7, g8, g9]
+gameSpaces = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 while on:
-    
+ 
     userPiece = input("Now, what piece do you want to be, X or O? ")
     if incorrectPiece > 5:
         print("Fine, you can be than piece")
