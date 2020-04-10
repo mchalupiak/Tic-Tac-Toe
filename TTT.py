@@ -3,13 +3,11 @@ from GameBoard import gameboard
 from AiTurn import aigo
 from time import sleep
 
-
 incorrectPiece = 0
 on = True
 startboard() ; sleep(.5)
 gameSpaces = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 while on:
- 
     userPiece = input("Now, what piece do you want to be, X or O? ")
     if incorrectPiece > 5:
         print("Fine, you can be than piece")
